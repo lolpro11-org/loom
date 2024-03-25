@@ -3,6 +3,10 @@ use std::path::PathBuf;
 
 fn main() {
 
+    println!("cargo:rustc-link-search=/usr/lib/x86_64-linux-gnu");
+
+
+    println!("cargo:rustc-link-lib=libstdc++.so.6");
 
     // The bindgen::Builder is the main entry point
     // to bindgen, and lets you build up options for

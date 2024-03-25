@@ -1,4 +1,3 @@
-#include "dot/Parser.h"
 #include "gtfs2graph/builder/Builder.h"
 #include "gtfs2graph/config/ConfigReader.h"
 #include "gtfs2graph/config/GraphBuilderConfig.h"
